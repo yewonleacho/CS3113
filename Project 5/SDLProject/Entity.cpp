@@ -198,6 +198,7 @@ void Entity::AI(Entity* player, Entity* life, Entity *enemies){
           player->numLife--;
           life[player->numLife].isActive = false;
           player->position = player->initPosition;
+          player->numKill = 0;
           for (int i = 0; i < ENEMY_COUNT; i++){
             enemies[i].isActive = true;
             enemies[i].position = enemies[i].initPosition;
