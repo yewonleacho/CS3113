@@ -198,7 +198,10 @@ void Entity::AI(Entity* player, Entity* life, Entity *enemies){
           player->numLife--;
           life[player->numLife].isActive = false;
           player->position = player->initPosition;
-          position = initPosition;
+          for (int i = 0; i < ENEMY_COUNT; i++){
+            enemies[i].isActive = true;
+            enemies[i].position = enemies[i].initPosition;
+          }
         }
       }
       if (collidedBottom){
