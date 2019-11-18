@@ -74,7 +74,6 @@
 		A2D1AEF8238116C000A589D7 /* life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = life.png; path = SDLProject/life.png; sourceTree = "<group>"; };
 		A2D1AEFB2382089C00A589D7 /* Level3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Level3.h; sourceTree = "<group>"; };
 		A2D1AEFC238208AB00A589D7 /* Level3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Level3.cpp; sourceTree = "<group>"; };
-		DB233D0E23661A3D008B1DEB /* tileset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileset.png; sourceTree = "<group>"; };
 		DB233D1023661B3D008B1DEB /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
 		DB233D1123661B3D008B1DEB /* Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
 		DBDF1B4F2323DE3F007CECB1 /* SDLProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLProject; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +90,6 @@
 		DBDF1B682323DEEA007CECB1 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
 		FAD6911C234B8AE400D9AA86 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
 		FAD6911D234B8AE400D9AA86 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
-		FAD69120234B8AEC00D9AA86 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,9 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				A2D1AEF42381129000A589D7 /* smpeg2.dll */,
-				DB233D0E23661A3D008B1DEB /* tileset.png */,
 				A2D1AEF52381129800A589D7 /* SDL2_mixer.dll */,
-				FAD69120234B8AEC00D9AA86 /* me.png */,
 				A2D1AEDD237FBF8B00A589D7 /* tilesheet.png */,
 				FAD6911D234B8AE400D9AA86 /* Entity.cpp */,
 				A2D1AEFB2382089C00A589D7 /* Level3.h */,

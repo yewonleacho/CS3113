@@ -150,7 +150,7 @@ void Entity::CheckCollisionsX(Map *map)
 }
 
 
-void Entity::AI(Entity* player, Entity* life){
+void Entity::AI(Entity* player, Entity* life, Entity *enemies){
   switch(aiState){
     case IDLE:
       velocity = glm::vec3(0);
@@ -166,7 +166,10 @@ void Entity::AI(Entity* player, Entity* life){
           player->numLife--;
           life[player->numLife].isActive = false;
           player->position = player->initPosition;
-          position = initPosition;
+          for (int i = 0; i < ENEMY_COUNT; i++){
+            enemies[i].isActive = true;
+            enemies[i].position = enemies[i].initPosition;
+          }
         }
       }
       if (direction == LEFT){
@@ -230,14 +233,14 @@ void Entity::Update(float deltaTime, Entity *objects, Entity *player, Entity *en
   CheckCollisionsX(map);
   CheckCollisionsX(objects, objectCount); // Fix if needed
   
-  if (entityType == PLAYER){
+  if (entityType == PLAYER){    // If fall into the pit player dies
     if (player->position.y < -7){
       player->isActive = false;
     }
   }
   
   if (entityType == ENEMY){
-    AI(player, life);
+    AI(player, life, enemies);
   }
   
 }

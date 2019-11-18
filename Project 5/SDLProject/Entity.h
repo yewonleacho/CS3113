@@ -57,7 +57,7 @@ public:
     void CheckCollisionsX(Map *map);
     void CheckCollisionsY(Map *map);
   
-    void AI(Entity *player, Entity *life);
+    void AI(Entity *player, Entity *life, Entity *enemies);
   
     void Update(float deltaTime, Entity *objects, Entity *player, Entity *enemies, Entity *life, int objectCount, Map *map);
   
