@@ -208,7 +208,7 @@ void Render() {
       Mix_HaltMusic();
       Mix_HaltChannel(-1);
     }
-    if (currentScene == sceneList[3] && currentScene->state.player.numKill >= 2){
+    else if (currentScene == sceneList[3] && currentScene->state.player.numKill >= 2){
       Util::DrawText(&program, fontTextureID, "You Win", 1.0f, -0.5f, glm::vec3(currentScene->state.player.position.x - 1.5, -4, 0));
     }
   

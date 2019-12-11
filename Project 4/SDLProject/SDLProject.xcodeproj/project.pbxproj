@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A21F8BA92368282F00BB3D6A /* attackMode.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = A21F8BA82368282F00BB3D6A /* attackMode.png */; };
 		A21F8BAB236831E700BB3D6A /* fire.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = A21F8BAA236831E700BB3D6A /* fire.png */; };
 		A2714C2123653CF100C530D9 /* entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2714C2023653CF100C530D9 /* entity.cpp */; };
 		A2714C2823655F0F00C530D9 /* player.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2714C2523655F0F00C530D9 /* player.png */; };
@@ -34,7 +33,6 @@
 			dstSubfolderSpec = 6;
 			files = (
 				A21F8BAB236831E700BB3D6A /* fire.png in CopyFiles */,
-				A21F8BA92368282F00BB3D6A /* attackMode.png in CopyFiles */,
 				A2714C312366C44200C530D9 /* gameover.png in CopyFiles */,
 				A2714C322366C44200C530D9 /* youwin.png in CopyFiles */,
 				A2714C2C23655F5700C530D9 /* dirt.png in CopyFiles */,
@@ -48,7 +46,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A21F8BA82368282F00BB3D6A /* attackMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = attackMode.png; path = SDLProject/attackMode.png; sourceTree = "<group>"; };
 		A21F8BAA236831E700BB3D6A /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = SDLProject/fire.png; sourceTree = "<group>"; };
 		A2714C2023653CF100C530D9 /* entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = entity.cpp; sourceTree = "<group>"; };
 		A2714C2223653D0800C530D9 /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
@@ -92,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				A21F8BAA236831E700BB3D6A /* fire.png */,
-				A21F8BA82368282F00BB3D6A /* attackMode.png */,
 				A2714C2F2366C44100C530D9 /* gameover.png */,
 				A2714C302366C44200C530D9 /* youwin.png */,
 				A2714C2923655F5700C530D9 /* dirt.png */,

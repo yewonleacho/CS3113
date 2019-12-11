@@ -210,8 +210,6 @@ void Entity::Update(float deltaTime, Entity *objects, Entity *player, Entity *en
       if (entityType == ENEMY) {
         AI(player, objects);
       }
-      
-      
     }
   }
 
